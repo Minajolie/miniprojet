@@ -1,0 +1,69 @@
+.navbar-brand,.pink,.bi-truck,.bi-arrow-left-right,.bi-percent,.bi-person{
+    color: #d63384!important;
+}
+.bi-search{
+    transform: translate(-30px, 12px);
+}
+.carousel-item{
+    height: 700px;
+}
+.carousel-item img{
+    width: 100%;
+}
+.buton{
+    background-color: #d63384!important;
+    border: none!important;
+}
+.produit,.contact{
+    background-color: rgb(233, 238, 245);
+}
+.about{
+    background-color: #d63384!important;
+    color: #fff;
+}
+label{
+    font-size: 20px;
+}
+.bond{
+    transform: translateY(-10px);
+}
+.card1{
+  position: relative;
+}
+.card1 img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .card1:hover .card1 img {
+    opacity: 0.3;
+  }
+  
+  .card1:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #d63384;
+    color: white;
+    font-size: 16px;
+    padding: 12px 32px;
+  }
+  .but{
+    background-color: #d63384!important;
+    border: none;
+    width: 35%;
+  }
